@@ -1,0 +1,51 @@
+:root {
+  --primary: #7C3AED;
+  --primary-dark: #6D28D9;
+  --pink: #EC4899;
+  --pink-dark: #DB2777;
+  --ink: #3B0764;
+  --text: #4B5563;
+  --muted: #6B7280;
+  --yellow-bg: #FEF08A;
+  --yellow-ink: #854D0E;
+  --font-title: 'Baloo 2', 'Nunito', sans-serif;
+  --font-body: 'Nunito', 'Segoe UI', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--text);
+  background: #fff;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-title);
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
+}
